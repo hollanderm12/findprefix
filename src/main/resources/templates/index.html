@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Prefix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <p><strong>Find Prefix</strong></p>
+        <p>This program searches a specified prefix and outputs, from a list of the 56000 most common English words, all words containing that prefix in JSON format using REST.</p>
+        <p>Enter a string below, then click Search. Note that British English spelling is used (e.g. "colour" and "theatre" instead of "color" and "theater") and certain phrases are included (e.g. "HAPPYGOLUCKY").</p>
+        <form action="result" method="GET">
+            <table>
+                <tr>
+                    <td>Prefix:</td>
+                    <td><input name="search" type="text" maxlength="99" required></td>
+                    <td><input type="submit" value="Search"></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <i>Created by Michael Hollander. Version 1.0, September 9, 2018</i>
+    </div>
+</body>
+</html>
